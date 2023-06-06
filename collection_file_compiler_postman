@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "2cd6270e-0e7a-419d-836b-5a573ed2949a",
+		"name": "compilation-video",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15950439"
+	},
+	"item": [
+		{
+			"name": "compilation-stream",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "video",
+							"type": "file",
+							"src": "/Desktop/24f061469cd1c0093fdebe87c2cc4e12.mp4"
+						},
+						{
+							"key": "name",
+							"value": "stream-test",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3333/api/video/compilation/stream",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"api",
+						"video",
+						"compilation",
+						"stream"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "compilation-CB",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "video",
+							"type": "file",
+							"src": "/Desktop/24f061469cd1c0093fdebe87c2cc4e12.mp4"
+						},
+						{
+							"key": "name",
+							"value": "stream-test",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3333/api/video/compilation/cb",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"api",
+						"video",
+						"compilation",
+						"cb"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
