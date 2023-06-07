@@ -37,7 +37,7 @@ router.post('/api/video/compilation/:type', uploads.single('video'), async (req:
       })
     }
 
-    if (type === CompilationType.CB || type === 'cb') {
+    if (type === CompilationType.ASYNC || type === 'async') {
       const completVideo = `uploads/complet/${newName}.rar`;
       return compressing.zip.compressFile(newfileName, completVideo).then(() =>
         res.send('Arquivo zipado com sucesso')

@@ -44,7 +44,7 @@
 			"response": []
 		},
 		{
-			"name": "compilation-CB",
+			"name": "compilation-ASYNC",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -74,7 +74,7 @@
 						"api",
 						"video",
 						"compilation",
-						"cb"
+						"async"
 					]
 				}
 			},

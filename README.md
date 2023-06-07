@@ -3,8 +3,10 @@
 
 <p align="center">
     <b>Compressor de vídeo para ZIP</b>
-    <h4 align="center"> Um código simples que da duas opções de <b>compressão</b> de video </br> Stream: Se destaca mais em videos grandes. </br> Callback: Se destaca mais em videos curtos.</h2>
+    <h4 align="center"> Um código simples que da duas opções de <b>compressão</b> de video </br> Stream: Se destaca mais em videos grandes. </br> Assíncrono: Se destaca mais em videos curtos.</h2>
 </p>
+
+---
 
 ### 🛠 Techs
   - [Nodejs](https://nodejs.org/en/)
